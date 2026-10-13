@@ -13,7 +13,10 @@ $katalogProduk = [
         "isActive" => true,
         "catatanGudang" => "Barang kondisi baik, segel utuh",
         "tags" => "komputer, laptop, asus-pro",
-        "deskripsi" => "Laptop dengan performa tinggi cocok untuk pekerja profesional."
+        "deskripsi" => "Laptop dengan performa tinggi cocok untuk pekerja profesional.",
+        "gambar" => "assets/images/prod-laptop.jpg",
+        "diskonPersen" => 5,
+        "terjual" => 142
     ],
     [
         "id" => "PROD-02",
@@ -25,7 +28,10 @@ $katalogProduk = [
         "isActive" => true,
         "catatanGudang" => null, // Special NULL
         "tags" => "pakaian, kemeja, lengan-panjang",
-        "deskripsi" => "Kemeja flanel pria bahan premium yang nyaman digunakan."
+        "deskripsi" => "Kemeja flanel pria bahan premium yang nyaman digunakan.",
+        "gambar" => "assets/images/prod-flanel.jpg",
+        "diskonPersen" => 5,
+        "terjual" => 89
     ],
     [
         "id" => "PROD-03",
@@ -37,7 +43,10 @@ $katalogProduk = [
         "isActive" => false,
         "catatanGudang" => "Menunggu restock dari supplier luar kota",
         "tags" => "furnitur, sofa, ruang-tamu",
-        "deskripsi" => "Sofa elegan 3 seater dengan desain minimalis modern."
+        "deskripsi" => "Sofa elegan 3 seater dengan desain minimalis modern.",
+        "gambar" => "assets/images/prod-sofa.jpg",
+        "diskonPersen" => 5,
+        "terjual" => 35
     ],
     [
         "id" => "PROD-04",
@@ -49,7 +58,10 @@ $katalogProduk = [
         "isActive" => true,
         "catatanGudang" => "Edisi terbatas warna hitam",
         "tags" => "jam-tangan, smart-watch, aksesoris",
-        "deskripsi" => "Jam tangan pintar dengan pelacak kesehatan."
+        "deskripsi" => "Jam tangan pintar dengan pelacak kesehatan.",
+        "gambar" => "assets/images/prod-smartwatch.jpg",
+        "diskonPersen" => 5,
+        "terjual" => 210
     ],
     [
         "id" => "PROD-05",
@@ -61,7 +73,10 @@ $katalogProduk = [
         "isActive" => true,
         "catatanGudang" => "Siap rakit dalam kotak",
         "tags" => "meja, kayu, ruang-belajar",
-        "deskripsi" => "Meja belajar kokoh terbuat dari kayu jati Belanda."
+        "deskripsi" => "Meja belajar kokoh terbuat dari kayu jati Belanda.",
+        "gambar" => "assets/images/prod-meja.jpg",
+        "diskonPersen" => 5,
+        "terjual" => 64
     ],
     [
         "id" => "PROD-06",
@@ -73,6 +88,9 @@ $katalogProduk = [
         "isActive" => true,
         "catatanGudang" => "Garansi resmi distributor 2 tahun",
         "tags" => "audio, headphone, noise-cancelling",
-        "deskripsi" => "Headphone nirkabel dengan teknologi peredam bising aktif terbaik."
+        "deskripsi" => "Headphone nirkabel dengan teknologi peredam bising aktif terbaik.",
+        "gambar" => "assets/images/prod-headphone.jpg",
+        "diskonPersen" => 5,
+        "terjual" => 312
     ]
 ];

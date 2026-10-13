@@ -79,3 +79,19 @@ function formatTagsProduk($rawTags) {
 function hitungPanjangDeskripsi($deskripsi) {
     return strlen($deskripsi);
 }
+
+// 9. Helper format mata uang Rupiah
+function formatRupiah($angka) {
+    return "Rp " . number_format($angka, 0, ',', '.');
+}
+
+// 10. Helper visual badge status stok dengan status glow dot
+function cekBadgeStatusStok($stok) {
+    if ($stok === 0) {
+        return "<span class='stock-pill stock-pill-danger'><span class='pulse-dot pulse-danger'></span> Stok Habis</span>";
+    } elseif ($stok < 3) {
+        return "<span class='stock-pill stock-pill-warning'><span class='pulse-dot pulse-warning'></span> Sisa " . $stok . " (Kritis)</span>";
+    } else {
+        return "<span class='stock-pill stock-pill-success'><span class='pulse-dot pulse-success'></span> " . $stok . " Tersedia</span>";
+    }
+}
